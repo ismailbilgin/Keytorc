@@ -1,0 +1,33 @@
+n11
+n11.com user story test automation via Selenium WebDriver (C#)
+
+
+Used Tech.
+
+- Selenium WebDriver v3.141.0
+- Nunit v3.12.0
+- Nunit3TestAdaptor v3.16.1 
+- Firefox Driver v0.26.0
+- .net 4.5
+
+
+Automation Steps
+
+- Open n11 page
+- login  
+- Search For Samsung
+- Check for results of samsung search
+- Go second page for results
+- Check for results of second page
+- Add 3. item in favorite list
+- Go Favorite Page
+- Select favorite Item
+- Delete Favorite Item
+- Apply for deleting item
+- Check the watched list is empty
+- Quit Browser
+
+Needs To be Edit parts
+
+- Username and Password variables should be changed with your valid credentials
+- Go "LoginPage.cs" => Change Line = 18/19
